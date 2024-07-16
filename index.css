@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #1F8505;
+    --white: #ffffff;
+  }
+
+  /* Make image,video, and audio tag to take 100% of the screen to fix
+overflow or horizontal scrolling */
+img,
+video,
+audio{
+    max-width: 100%;}
+
+  
+                /* All Content margin */
+                /* All Content margin */
+
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+            /* Navigation */
+            /* Navigation */
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 2px solid rgba(31, 133, 5, 0.30);
+    background: #FFF;
+}
+
+#navigation .icons {
+    display: flex;
+    gap: 24px;
+}
+
+        /* Translation type */
+
+#transtype {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 70px;
+}
+
+#transtype .text {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid var(--primary);
+    width: 138px;
+    height: 54px;
+    padding: 12px 18px;
+    gap: 12px;
+    align-items: center;
+}
+
+#transtype .text h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#transtype .document {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid var(--primary);
+    width: 200px;
+    height: 54px;
+    padding: 12px 18px;
+    gap: 12px;
+    align-items: center;
+}
+
+#transtype .document h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+            /* Textbox heading*/
+
+#textboxhead {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+#textboxhead .langdetect h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#textboxhead .languages {
+    display: flex;
+    gap: 11px;
+}
+
+            /* Textarea */
+
+#textboxhead .languages h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#textboxhead .languages .hindi {
+    color: var(--primary);
+}
+
+#textarea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+#textarea .detecttext {
+    width: 442px;
+    height: 255px;
+    border-radius: 10px;
+    border: 1px solid rgba(31, 133, 5, 0.40);
+}
+
+#textarea .translated {
+    width: 442px;
+    height: 255px;
+    border-radius: 10px;
+    border: 1px solid rgba(31, 133, 5, 0.40);
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.128px;
+}
+
+#tone {
+    display: flex;
+    margin-top: 11px;
+    gap: 11px;
+}
+
+#tone h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#tone .casual {
+    color: var(--primary);
+}
+
+#feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 87px;
+    margin-bottom: 110px;
+}
+
+#feedback .feedback {
+    display: flex;
+    width: 182px;
+    height: 55px;
+    padding: 12px 14px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--primary);
+}
+
+#feedback .feedback h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#feedback .history {
+    display: flex;
+    width: 159px;
+    height: 55px;
+    padding: 12px 14px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--primary);
+}
+
+#feedback .history h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
